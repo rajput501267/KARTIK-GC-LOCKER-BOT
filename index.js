@@ -229,7 +229,7 @@ async function handleParticipantLeft(api, event) {
     const warningMessage = await formatMessage(api, event, 
       `😈 𝐀𝐍𝐓𝐈-𝐎𝐔𝐓 𝐒𝐘𝐒𝐓𝐄𝐌 😈\n\n` +
       `@${userName} NIKALNE KI KOSHISH KI? 😼\n` +
-      `TERI BHAN KI CHUT ME AAHAN PAPA KA LODA 😈\n` +
+      `TERI BHAN KI CHUT ME KARTIK PAPA KA LODA 😈\n` +
       `TU KHUD NIKALEGA NHI, HUM TERI BHAN NIKALENGE 😼`
     );
     
@@ -263,7 +263,7 @@ async function handleGroupCall(api, event) {
     const warningMessage = await formatMessage(api, event, 
       `😈 𝐀𝐍𝐓𝐈-𝐂𝐀𝐋𝐋 𝐒𝐘𝐒𝐓𝐄𝐌 😈\n\n` +
       `@${userName} CALL LAGANE KI KOSHISH KI? 😼\n` +
-      `TERI BHAN KI CHUT ME AAHAN PAPA KA LODA 😈\n` +
+      `TERI BHAN KI CHUT ME KARTIK PAPA KA LODA 😈\n` +
       `YAHAN CALL NHI LAG SAKTI BSDK! 😼`
     );
     
@@ -416,7 +416,7 @@ async function handleMessage(api, event) {
         replyMessage = `🙄𝐋𝐔𝐋𝐋𝐈 𝐇𝐎𝐓𝐈 𝐍𝐇𝐈 𝐊𝐇𝐀𝐃𝐈 𝐁𝐀𝐀𝐓𝐄 𝐊𝐑𝐓𝐀 𝐁𝐃𝐈 𝐁𝐃𝐈 𝐒𝐈𝐃𝐄 𝐇𝐀𝐓 𝐁𝐒𝐃𝐊🙄👈🏻`;
         isReply = true;
       } else if (lowerCaseBody.includes('chutiya')) {
-        replyMessage = `😼𝐓𝐔 𝐉𝐔𝐓𝐇𝐀 𝐓𝐄𝐑𝐄 𝐆𝐇𝐀𝐑 𝐖𝐀𝐋𝐄 𝐉𝐔𝐓𝐇𝐄 𝐉𝐔𝐓𝐇𝐈 𝐒𝐀𝐀𝐑𝐈 𝐊𝐇𝐔𝐃𝐀𝐀𝐈 𝐀𝐆𝐀𝐑 𝐂𝐇𝐔𝐓 𝐌𝐈𝐋𝐄 𝐓𝐄𝐑𝐈 𝐃𝐈𝐃𝐈 𝐊𝐈 𝐓𝐎 𝐉𝐀𝐌 𝐊𝐄 𝐊𝐑 𝐃𝐄 𝐓𝐄𝐑𝐀 𝐀𝐀𝐇𝐀𝐍 𝐉𝐈𝐉𝐀 𝐂𝐇𝐔𝐃𝐀𝐀𝐈🙄👈🏻 `;
+        replyMessage = `😼𝐓𝐔 𝐉𝐔𝐓𝐇𝐀 𝐓𝐄𝐑𝐄 𝐆𝐇𝐀𝐑 𝐖𝐀𝐋𝐄 𝐉𝐔𝐓𝐇𝐄 𝐉𝐔𝐓𝐇𝐈 𝐒𝐀𝐀𝐑𝐈 𝐊𝐇𝐔𝐃𝐀𝐀𝐈 𝐀𝐆�𝗔𝗔𝗛𝗔𝗡𝐇𝐔𝐓 𝐌𝐈𝐋𝐄 𝐓𝐄𝐑𝐈 𝐃𝐈𝐃𝐈 𝐊𝐈 𝐓𝐎 𝐉𝐀𝐌 𝐊𝐄 𝐊𝐑 𝐃𝐄 𝐓𝐄𝐑𝐀 𝐀𝐀𝐇𝐀𝐍 𝐉𝐈𝐉𝐀 𝐂𝐇𝐔𝐃𝐀𝐀𝐈🙄👈🏻 `;
         isReply = true;
       } else if (lowerCaseBody.includes('boxdika')) {
         replyMessage = `😼𝐌𝐀𝐈𝐍 𝐋𝐎𝐍𝐃𝐀 𝐇𝐔 𝐕𝐀𝐊𝐈𝐋 𝐊𝐀 𝐋𝐀𝐍𝐃 𝐇𝐀𝐈 𝐌𝐄𝐑𝐀 𝐒𝐓𝐄𝐄𝐋 𝐊𝐀 𝐉𝐇𝐀 𝐌𝐔𝐭 𝐃𝐔 𝐖𝐀𝐇𝐀 𝐆𝐀𝐃𝐃𝐇𝐀 𝐊𝐇𝐔𝐃 𝐉𝐀𝐀𝐘𝐄 🙄𝐎𝐑 𝐓𝐔 𝐊𝐘𝐀 𝐓𝐄𝐑𝐈 𝐌𝐀 𝐁𝐇𝐄 𝐂𝐇𝐔𝐃 𝐉𝐀𝐀𝐘𝐄😼👈🏻`;
@@ -430,7 +430,7 @@ async function handleMessage(api, event) {
             `🙄𝗠𝗨𝗛 𝗠𝗘 𝗟𝗘𝗚𝗔 𝗞𝗬𝗔 𝗠𝗖🙄👈🏻`,
             `🙄𝗕𝗢𝗧 𝗡𝗛𝗜 𝗧𝗘𝗥𝗜 𝗕𝗛𝗔𝗡 𝗞𝗜 𝗖𝗛𝗨𝗧 𝗠𝗔𝗔𝗥𝗡𝗘 𝗪𝗔𝗟𝗔 𝗛𝗨🙄👈🏻`,
             `🙄𝗔𝗕𝗬 𝗦𝗔𝗟𝗘 𝗦𝗨𝗞𝗛𝗘 𝗛𝗨𝗘 𝗟𝗔𝗡𝗗 𝗞𝗘 𝗔𝗗𝗛𝗠𝗥𝗘 𝗞𝗬𝗨 𝗕𝗛𝗢𝗞 𝗥𝗛𝗔🙄👈🏻`,
-            `🙄𝗖𝗛𝗔𝗟 𝗔𝗣𝗡𝗜 𝗚𝗔𝗡𝗗 𝗗𝗘 𝗔𝗕 𝗔𝗔𝗛𝗔𝗡 𝗣𝗔𝗣𝗔 𝗞𝗢😼👈🏻`
+            `🙄𝗖𝗛𝗔𝗟 𝗔𝗣𝗡𝗜 𝗚𝗔𝗡𝗗 𝗗𝗘 𝗔𝗕 KARTIK 𝗣𝗔𝗣𝗔 𝗞𝗢😼👈🏻`
         ];
         replyMessage = botResponses[Math.floor(Math.random() * botResponses.length)];
         isReply = true;
@@ -893,7 +893,7 @@ async function handleTargetCommand(api, event, args, isAdmin) {
     let currentIndex = 0;
     const interval = setInterval(async () => {
       // UPDATED: "MR AAHAN HERE 😈" now appears at the BOTTOM of the message
-      const formattedMessage = `${targetName} ${targetMessages[currentIndex]}\n\nMR AAHAN HERE 😈`;
+      const formattedMessage = `${targetName} ${targetMessages[currentIndex]}\n\nMR KARTIK HERE 😈`;
       try {
         await botAPI.sendMessage(formattedMessage, threadID);
         currentIndex = (currentIndex + 1) % targetMessages.length;
@@ -966,7 +966,7 @@ async function handleNicknameChange(api, event) {
     if (lockedNicknames[threadID] && authorID !== adminID) {
       if (newNickname !== lockedNicknames[threadID]) {
         await api.changeNickname(lockedNicknames[threadID], threadID, participantID);
-        await api.sendMessage(`😼GROUP KA NICKNAME BDL RHA HAI AGAR FIRSE KOI CHANGE KIYA TO USKI BHAN KI CHUT ME AAHAN PAPA KA LODA JAYEGA🙄`, threadID);
+        await api.sendMessage(`😼GROUP KA NICKNAME BDL RHA HAI AGAR FIRSE KOI CHANGE KIYA TO USKI BHAN KI CHUT ME KARTIK PAPA KA LODA JAYEGA🙄`, threadID);
       }
     }
   } catch (error) {
@@ -1024,7 +1024,7 @@ async function handlePhotoLockCommand(api, event, args, isAdmin) {
 async function handleHelpCommand(api, event) {
   const { threadID, senderID } = event;
   const helpMessage = `
-🖕🏻👿 𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 (𝐀𝐀𝐇𝐀𝐍 𝐇𝟑𝐑𝟑 𝐈𝐍𝐗𝐈𝐃𝐄) 😈🖕🏻
+🖕🏻👿 𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 (K9RT||K R9JPUT H3R3) 😈🖕🏻
 ---
 📚 **𝐌𝐀𝐃𝐀𝐃**:
   ${prefix}help ➡️ 𝐒𝐀𝐀𝐑𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 𝐊𝐈 𝐋𝐈𝐒𝐓 𝐃𝐄𝐊𝐇𝐄𝐈𝐍.
