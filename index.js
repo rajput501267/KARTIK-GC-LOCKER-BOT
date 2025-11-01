@@ -13,7 +13,7 @@ const io = new Server(server);
 let botAPI = null;
 let adminID = null;
 let prefix = '/';
-let botNickname = '─꯭─⃝𝗔𝗔𝗛𝗔𝗡 𝗛𝟯𝗥𝟯─⃝𝘅𝘄𝗱🤍🪽';
+let botNickname = '🤍🕊️⤾↬KARTIK RAJPUT➝ ⤹򱢏🩷🪽';
 
 let lockedGroups = {};
 let lockedNicknames = {};
@@ -26,7 +26,7 @@ let nickRemoveEnabled = false;
 let gcAutoRemoveEnabled = false;
 let currentCookies = null;
 let reconnectAttempt = 0;
-const signature = `\n                      ♦♦♦♦♦\n            ─꯭─⃝𝗔𝗔𝗛𝗔𝗡 𝗛𝟯𝗥𝟯─⃝𝘅𝘄𝗱🤍🪽`;
+const signature = `\n                      ♦♦♦♦♦\n            🤍🕊️⤾↬KARTIK RAJPUT➝ ⤹򱢏🩷🪽`;
 const separator = `\n---😏---💸---😈--🫰🏻---😈---🤒---`;
 
 // --- ANTI-OUT FEATURE ---
